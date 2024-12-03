@@ -6,6 +6,8 @@ public sealed class Animal permits Aquatic, Terrestrial {
     private int age;
     private boolean isMammal;
 
+    private Animal[] aquaticAnimals;
+
 
     public Animal() {
     }
